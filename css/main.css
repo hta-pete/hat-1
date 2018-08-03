@@ -440,6 +440,14 @@ header .nav li {
   filter: alpha(opacity=15);
   filter: grayscale(100%);
 }
+.box-grid video {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  height: auto;
+  left: 0px;
+}
 .box-grid span {
   display: inline-block;
   font-size: 14px;
